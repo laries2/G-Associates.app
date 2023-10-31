@@ -1,0 +1,224 @@
+body{
+  scroll-behavior: smooth;
+}
+#logo{
+  display: inline-block;
+
+}
+nav{
+  background-color: #0c5460;
+
+}
+
+ul li{
+  display: inline-block;
+
+
+}
+li a{
+
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 12px;
+  color: #b3d4fc;
+  font-family: sans-serif;
+
+
+}
+li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #0c5460;
+  border-radius: 15px;
+}
+.div1{
+  margin-top: 120px;
+  padding: 20px;
+}
+.div2{
+  padding: 20px;
+  padding-top: 20px;
+
+}
+.col-sm-4{
+
+  padding: 10px;
+}
+
+.images{
+  padding: 4px;
+  background-color: #0c5460;
+  border-radius: 15px;
+}
+.card{
+  padding: 10px;
+
+}
+h3{
+  color: #0c5460;
+}
+p{
+  color: #003764;
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+.button1{
+  background-color: #0c5460;
+  color: #b3d4fc;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 1s opacity, 1s background-color, 1s color;
+}
+.button1:hover{
+  opacity: 0.6;
+}
+
+.button1:active{
+  background-color: #0c5460;
+  color: #b3d4fc;
+
+}
+
+#cara{margin-top: 10px}
+.services{
+  background-color: #0c5460;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  color: #b3d4fc;
+
+}
+h5 a{
+  text-decoration: none;
+  color: #b3d4fc;
+}
+h5 a:hover{
+  text-decoration: none;
+}
+.ict{
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+footer{
+
+  background-color: black;
+  color: #b3d4fc;
+}
+
+.socials{
+  font-size: 10px;
+}
+.soc{
+  font-size: 10px;
+
+}
+.button2{
+
+  border-radius: 10px;
+  border: 4px solid #0c5460;
+  color: #0c5460;
+
+}
+.contact{
+  margin: 10px;
+  margin-left: 15px;
+  background-color: #0c5460;
+  border-radius: 10px;
+  padding: 10px;
+
+
+}
+.forms{
+  border: 4px solid #003764;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+label input{
+  width: 100%;
+}
+label{
+  color: #b3d4fc;
+}
+input{
+  color: #0c5460;
+  background-color: #b3d4fc;
+  box-shadow: none;
+  border-radius: 10px;
+
+}
+textarea{
+  height: 40px;
+  background-color: #b3d4fc;
+  border-radius: 8px;
+  width: 100%;
+  color: #0c5460;
+}
+.buttonform{
+
+
+}
+input[type=submit]{
+  color: rebeccapurple;
+  border-radius: 10px;
+  background-color: aqua;
+  border-color: #b3d4fc;
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 200px;
+
+
+}
+.conhead{
+  text-align: center;
+  font-family: sans-serif;
+  color: #0c5460;
+
+}
+.left{
+  background-color: #003764;
+
+}
+.flip-images{
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border:  2px solid grey;
+  perspective: 1000px;
+
+}
+.flip-images-interior{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.back-text{
+  color: ghostwhite;
+  background-color: grey;
+  transform: rotateY(180deg);
+}
+.front-image{
+  background-color: grey;
+  color: black;
+}
+.flip-images:hover .flip-images-interior{
+  transform: rotateY(180deg);
+}
+.front-image .back-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.fa .fa-facebook{
+  width: 150px;
+  height: 150px;
+}
